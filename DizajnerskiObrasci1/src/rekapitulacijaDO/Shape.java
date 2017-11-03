@@ -18,6 +18,6 @@ public abstract class Shape implements Moveable{
 		return color;
 	}
 	
-	public abstract void drawObject(Graphics g);
+	public abstract void drawShape(Graphics g);
 	
 }

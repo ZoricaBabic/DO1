@@ -44,7 +44,7 @@ public class Point extends Shape{
 	}
 
 	@Override
-	public void drawObject(Graphics g) {
+	public void drawShape(Graphics g) {
 		g.setColor(getColor());
 		g.drawLine(this.x-1, this.y-1, this.x+1, this.y+1);
 		g.drawLine(this.x-1, this.y+1, this.x+1, this.y-1);

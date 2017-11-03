@@ -18,7 +18,7 @@ public class DrawingPnl extends JPanel{
 		super.paint(g);
 		Iterator<Shape> it = shapes.iterator();
 		while(it.hasNext()) {
-			it.next().drawObject(g);
+			it.next().drawShape(g);
 		}
 		repaint();
 	}
