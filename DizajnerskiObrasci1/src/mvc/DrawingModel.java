@@ -10,5 +10,17 @@ public class DrawingModel {
 	public ArrayList<Shape> getShapes(){
 		return shapes;
 	}
+	
+	public void add(Shape s) {
+		shapes.add(s);
+	}
+	
+	public Shape get(int i) {
+		return shapes.get(i);
+	}
+	
+	public boolean remove(Shape s) {
+		return shapes.remove(s);
+	}
 
 }

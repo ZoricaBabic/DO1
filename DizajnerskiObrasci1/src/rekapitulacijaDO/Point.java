@@ -7,6 +7,9 @@ public class Point extends Shape{
 	private int x;
 	private int y;
 	
+	public Point() {
+		
+	}
 	public Point(int x, int y, Color color) {
 		super(color);
 		this.x = x;
